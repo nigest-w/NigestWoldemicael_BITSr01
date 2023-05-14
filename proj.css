@@ -1,0 +1,148 @@
+*{
+    padding:0 ;
+    margin: 0;
+}
+body{
+    background-color:rgb(37, 39, 38);
+    margin:0;
+padding: 0;
+}
+.navigation a{
+    color:white;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color:darkcyan;
+}
+.navigation li{
+    color: white;
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left:60px;
+    
+}
+.navigation ul{
+    display:flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(8, 18,16);
+width: 100%;
+height: 70px;
+margin:0;
+padding:auto;
+}
+h3{
+    padding-top: 20px;
+    color:goldenrod;
+    margin-left: 30px;
+}
+img{
+    border-radius:50% 50% 51% 49% / 58% 56% 44% 42%  ;
+}
+.home_contaier{
+    display: flex;
+    column-gap: 300px;
+    margin-top: 80px;
+    margin-bottom: 150px;
+    line-height: 33px;
+} 
+.homesec{
+    margin-left: 100px;
+}
+h2{
+    color:white;
+}
+h1,p,span{
+    color:goldenrod;
+}
+.homesec p{
+    display:inline-flex;
+    color:goldenrod;
+    
+}
+.homesec a{
+    text-decoration: none;
+    color:goldenrod;
+}
+.about_text{
+    width: 45%;
+    margin-left: 650px;
+    padding-top: 400px;
+    line-height: 30px;
+    font-size: 25px;
+}
+.about_text p{
+    color:white;
+
+}
+.about{
+
+    background:linear-gradient(rgba(8, 18,16,0.5),rgba(28, 31, 30, 0.5)) ,url(/photo/nigestphoto2.jpg);
+    background-repeat: no-repeat;
+    height: 900px;
+   width:100%;
+   background-size:cover;
+  
+   
+}
+
+.aboutsec h2{
+    color:goldenrod;
+    padding-bottom:20px ;
+}
+.last h2{
+color: goldenrod;
+}
+.last p{
+    color:white;
+    width: 40%;
+}
+.edusec{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    align-content: center;
+    margin-left: 40px;
+    gap: 40px;
+}
+.text h2 span{
+color:white;
+}
+.text h2{
+text-align: center;
+margin-top: 70px;
+}
+.prime{
+    margin-top: 40px;
+    margin-right: 40px;
+    background-color:rgb(21, 21, 22) ;
+    padding: 20px 30px;
+    border-radius: 8px;
+
+}
+header.sticky{
+    background: rgb(37, 39, 38);
+ padding: 12px 15%;
+ border-bottom: 1px solid #ffffff1a;
+}
+.end1{
+    display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,auto));
+align-content: center;
+}
+
+.end1 p{
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 400px;
+}
+.end1 a{
+color:white;
+padding-top: 15px;
+margin-left: 550px;
+}
